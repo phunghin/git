@@ -7,9 +7,7 @@ using Random = UnityEngine.Random;
 
 public class MainGame : SceneBehaviour, IBoardEventListener
 {
-	private static readonly float BoardPadding = 0.2f;
-
-    private static int n;
+	private static readonly float BoardPadding = 0.2f;   
 
 	/// <summary>
 	/// The cell prefab.
