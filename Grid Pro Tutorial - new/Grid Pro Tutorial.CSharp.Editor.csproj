@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{49891A77-9772-7830-802A-193CD8C3E1C9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Full v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Editor:5</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>5.6.0b3</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_0;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_0;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Advertisements">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\UnityAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TestRunner">
+      <HintPath>Library\UnityAssemblies\UnityEditor.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>Library\UnityAssemblies\UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>Library\UnityAssemblies\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TreeEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.TreeEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.HoloLens">
+      <HintPath>Library\UnityAssemblies\UnityEditor.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.VR">
+      <HintPath>Library\UnityAssemblies\UnityEditor.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Android.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Android.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+      <HintPath>Library\UnityAssemblies\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Grid Pro Tutorial.CSharp.csproj">
+      <Project>{7138ADD1-4A26-D8B7-F0CA-D44B492E2288}</Project>
+      <Name>Grid Pro Tutorial.CSharp</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\GameTutorial\Editor\EditorGUIHelper.cs" />
+    <Compile Include="Assets\GameTutorial\Editor\ScriptableObjectFactory.cs" />
+    <Compile Include="Assets\GameTutorial\Editor\ScriptableObjectWindow.cs" />
+    <Compile Include="Assets\GameTutorial\Editor\SoundManagerEditor.cs" />
+    <Compile Include="Assets\Gamelogic\Extensions\Plugin\Scripts\Editor\GLEditorGUI.cs" />
+    <Compile Include="Assets\Gamelogic\Extensions\Plugin\Scripts\Editor\GLSerializedProperty.cs" />
+    <Compile Include="Assets\Gamelogic\Extensions\Plugin\Scripts\Editor\Internal\EditorUtils.cs" />
+    <Compile Include="Assets\Gamelogic\Extensions\Plugin\Scripts\Editor\Internal\GLEditor.cs" />
+    <Compile Include="Assets\Gamelogic\Extensions\Plugin\Scripts\Editor\Internal\GLMenu.cs" />
+    <Compile Include="Assets\Gamelogic\Extensions\Plugin\Scripts\Editor\Internal\StringExtensions.cs" />
+    <Compile Include="Assets\Gamelogic\Extensions\Plugin\Scripts\Editor\PropertyDrawers\CommentDrawer.cs" />
+    <Compile Include="Assets\Gamelogic\Extensions\Plugin\Scripts\Editor\PropertyDrawers\InspectorFlagsDrawer.cs" />
+    <Compile Include="Assets\Gamelogic\Extensions\Plugin\Scripts\Editor\PropertyDrawers\MinMaxFloatPropertyDrawer.cs" />
+    <Compile Include="Assets\Gamelogic\Extensions\Plugin\Scripts\Editor\PropertyDrawers\NonNegativeDrawer.cs" />
+    <Compile Include="Assets\Gamelogic\Extensions\Plugin\Scripts\Editor\PropertyDrawers\OptionalPropertyDrawer.cs" />
+    <Compile Include="Assets\Gamelogic\Extensions\Plugin\Scripts\Editor\PropertyDrawers\PositivePropertyDrawer.cs" />
+    <Compile Include="Assets\Gamelogic\Grids\Examples\ExamplesResources\Editor\AnimatedGridEditor.cs" />
+    <Compile Include="Assets\Gamelogic\Grids\Plugin\Scripts\Unity\Editor\Editors\CairoTileGridEditor.cs" />
+    <Compile Include="Assets\Gamelogic\Grids\Plugin\Scripts\Unity\Editor\Editors\DiamondTileGridEditor.cs" />
+    <Compile Include="Assets\Gamelogic\Grids\Plugin\Scripts\Unity\Editor\Editors\FlatHexTileGridEditor.cs" />
+    <Compile Include="Assets\Gamelogic\Grids\Plugin\Scripts\Unity\Editor\Editors\FlatRhombTileGridEditor.cs" />
+    <Compile Include="Assets\Gamelogic\Grids\Plugin\Scripts\Unity\Editor\Editors\FlatTriTileGridEditor.cs" />
+    <Compile Include="Assets\Gamelogic\Grids\Plugin\Scripts\Unity\Editor\Editors\GLEditor.cs" />
+    <Compile Include="Assets\Gamelogic\Grids\Plugin\Scripts\Unity\Editor\Editors\LineTileGridEditor.cs" />
+    <Compile Include="Assets\Gamelogic\Grids\Plugin\Scripts\Unity\Editor\Editors\MeshGridEditor.cs" />
+    <Compile Include="Assets\Gamelogic\Grids\Plugin\Scripts\Unity\Editor\Editors\PointListTileGridEditor.cs" />
+    <Compile Include="Assets\Gamelogic\Grids\Plugin\Scripts\Unity\Editor\Editors\PointyHexMeshGridEditor.cs" />
+    <Compile Include="Assets\Gamelogic\Grids\Plugin\Scripts\Unity\Editor\Editors\PointyHexTileGridEditor.cs" />
+    <Compile Include="Assets\Gamelogic\Grids\Plugin\Scripts\Unity\Editor\Editors\PointyRhombTileGridEditor.cs" />
+    <Compile Include="Assets\Gamelogic\Grids\Plugin\Scripts\Unity\Editor\Editors\PointyTriTileGridEditor.cs" />
+    <Compile Include="Assets\Gamelogic\Grids\Plugin\Scripts\Unity\Editor\Editors\PolarFlatBrickTileGridEditor.cs" />
+    <Compile Include="Assets\Gamelogic\Grids\Plugin\Scripts\Unity\Editor\Editors\PolarPointyBrickTileGridEditor.cs" />
+    <Compile Include="Assets\Gamelogic\Grids\Plugin\Scripts\Unity\Editor\Editors\PolarRectTileGridEditor.cs" />
+    <Compile Include="Assets\Gamelogic\Grids\Plugin\Scripts\Unity\Editor\Editors\RectTileGridEditor.cs" />
+    <Compile Include="Assets\Gamelogic\Grids\Plugin\Scripts\Unity\Editor\Editors\SimpleGridEditor.cs" />
+    <Compile Include="Assets\Gamelogic\Grids\Plugin\Scripts\Unity\Editor\Editors\SpriteCellEditor.cs" />
+    <Compile Include="Assets\Gamelogic\Grids\Plugin\Scripts\Unity\Editor\GLGridsEditorExtensions.cs" />
+    <Compile Include="Assets\Gamelogic\Grids\Plugin\Scripts\Unity\Editor\GLMenu.cs" />
+    <Compile Include="Assets\Gamelogic\Grids\Plugin\Scripts\Unity\Editor\PropertyDrawers\ColorFunctionPropertyDrawer.cs" />
+    <Compile Include="Assets\Gamelogic\Grids\Plugin\Scripts\Unity\Editor\PropertyDrawers\InspectableVectorPointPropertyDrawer.cs" />
+    <Compile Include="Assets\Gamelogic\Grids2\Plugin\Scripts\EditorSupport\Editor\GLMenu.cs" />
+    <Compile Include="Assets\Gamelogic\Grids2\Plugin\Scripts\EditorSupport\Editor\MeshGridBuilderEditor.cs" />
+    <Compile Include="Assets\Gamelogic\Grids2\Plugin\Scripts\EditorSupport\Editor\PropertyDrawer\ColorFunctionPropertyDrawer.cs" />
+    <Compile Include="Assets\Gamelogic\Grids2\Plugin\Scripts\EditorSupport\Editor\PropertyDrawer\InspectableGridPoint2PropertyDrawer.cs" />
+    <Compile Include="Assets\Gamelogic\Grids2\Plugin\Scripts\EditorSupport\Editor\PropertyDrawer\InspectableGridPoint3PropertyDrawer.cs" />
+    <Compile Include="Assets\Gamelogic\Grids2\Plugin\Scripts\EditorSupport\Editor\PropertyDrawer\InspectableMatrixf2x2PropertyDrawer.cs" />
+    <Compile Include="Assets\Gamelogic\Grids2\Plugin\Scripts\EditorSupport\Editor\PropertyDrawer\InspectableMatrixf3x3PropertyDrawer.cs" />
+    <Compile Include="Assets\Gamelogic\Grids2\Plugin\Scripts\EditorSupport\Editor\PropertyDrawer\InspectableMatrixi2x2PropertyDrawer.cs" />
+    <Compile Include="Assets\Gamelogic\Grids2\Plugin\Scripts\EditorSupport\Editor\PropertyDrawer\InspectableMatrixi3x3PropertyDrawer.cs" />
+    <Compile Include="Assets\Gamelogic\Grids2\Plugin\Scripts\EditorSupport\Editor\TileGridBuilderEditor.cs" />
+    <Compile Include="Assets\Gamelogic\Grids2\Plugin\Scripts\EditorSupport\Graphs\Editor\ColorIndicatorPropertyDrawer.cs" />
+    <Compile Include="Assets\Gamelogic\Grids2\Plugin\Scripts\EditorSupport\Graphs\Editor\GraphEditorUtils.cs" />
+    <Compile Include="Assets\Gamelogic\Grids2\Plugin\Scripts\EditorSupport\Graphs\Editor\GraphPropertyDrawer.cs" />
+    <Compile Include="Assets\Gamelogic\Grids2\Plugin\Scripts\EditorSupport\Graphs\Editor\GraphWindow.cs" />
+    <Compile Include="Assets\Gamelogic\Grids2\Plugin\Scripts\EditorSupport\Graphs\Editor\MapGraphEditor.cs" />
+    <Compile Include="Assets\Gamelogic\Grids2\Plugin\Scripts\EditorSupport\Graphs\Editor\Shape1GraphPropertyDrawer.cs" />
+    <Compile Include="Assets\Gamelogic\Grids2\Plugin\Scripts\EditorSupport\Graphs\Editor\Shape1GraphWindow.cs" />
+    <Compile Include="Assets\Gamelogic\Grids2\Plugin\Scripts\EditorSupport\Graphs\Editor\Shape2GraphPropertyDrawer.cs" />
+    <Compile Include="Assets\Gamelogic\Grids2\Plugin\Scripts\EditorSupport\Graphs\Editor\Shape2GraphWindow.cs" />
+    <Compile Include="Assets\Gamelogic\Grids2\Plugin\Scripts\EditorSupport\Graphs\Editor\Shape3GraphPropertyDrawer.cs" />
+    <Compile Include="Assets\Gamelogic\Grids2\Plugin\Scripts\EditorSupport\Graphs\Editor\Shape3GraphWindow.cs" />
+    <Compile Include="Assets\Gamelogic\Grids2\Plugin\Scripts\EditorSupport\Graphs\Editor\ShapeGraphEditor.cs" />
+    <Compile Include="Assets\Gamelogic\Grids2\Plugin\Scripts\EditorSupport\Graphs\Editor\ShapeGraphPropertyDrawer.cs" />
+    <Compile Include="Assets\Gamelogic\Grids2\Plugin\Scripts\EditorSupport\Graphs\Editor\SpaceMapGraphPropertyDrawer.cs" />
+    <Compile Include="Assets\Gamelogic\Grids2\Plugin\Scripts\EditorSupport\Graphs\Editor\SpaceMapGraphWindow.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\GameTutorial\Resources\text.txt" />
+    <None Include="Assets\Gamelogic\Extensions\Plugin\Scripts\Internal\BinaryHeap\BinaryHeapLincense.txt" />
+    <None Include="Assets\Gamelogic\Extensions\Plugin\Scripts\Internal\KDTree\KDTreeLicense.txt" />
+    <None Include="Assets\Gamelogic\Grids\Examples\ExamplesResources\Shaders\Transparent Colored.shader" />
+    <None Include="Assets\Gamelogic\Grids\Examples\ExamplesResources\Shaders\Unlit - Transparent Colored.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
+</Project>
